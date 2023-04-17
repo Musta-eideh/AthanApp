@@ -1,4 +1,25 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
 }
+  
+body{
+    background-image: url(/assets/img/FundoImg.svg);
+    background-repeat: no-repeat;
+}
+
+.flex{
+    display: flex;
+}
+
+/* .container{
+    position: absolute;
+    width: 1057px;
+    height: 568px;
+    left: 111px;
+    top: 132px;
+    background: rgba(206, 224, 220, 0.45);
+    border-radius: 10px;
+} */
