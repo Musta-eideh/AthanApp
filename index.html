@@ -6,35 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Athan</title>
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Open+Sans:wght@400;700&family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div class="container">
+    <div class="container flex">
         <div class="flex">
-            <header>
+            <header class="salutation">
                 <h1>Athan</h1>
                 <h2>السلام عليكم</h2>
                 <h3>Assalamu alaiku</h3>
             </header>
     
-            <main>
+            <main class="main-login">
                 <div class="headline">
                     <h1>Welcome back!</h1>
                 </div>
     
                 <form action="">
-                    <div class="input-wrapper">
+                    <div class="input-wrapper-email">
                         <div class="input-wrapper flex">
-                            <label for="email">E-mail</label>
+                            <label for="email">E-mail:</label>
                         </div>
                         <input id="email" type="email" name="email" required placeholder="Type your e-mail">
                     </div>
     
-                    <div class="input-wrapper">
+                    <div class="input-wrapper-password">
                         <div class="input-wrapper flex">
-                            <label for="password">Password</label>
+                            <label for="password">Password:</label>
                         </div>
                         <input type="Password" id="password" name="password" required placeholder="Type your password.">
+                        
                         <div class="forget flex">
                             <a href="http://">Forget my password.</a>
                         </div>

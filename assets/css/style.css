@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     -webkit-font-smoothing:antialiased;
+    font-family: 'Inter', sans-serif;
 }
   
-body{
+html {
+    height: 100%;
     background-image: url(/assets/img/FundoImg.svg);
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -14,7 +17,7 @@ body{
     display: flex;
 }
 
-/* .container{
+.container{
     position: absolute;
     width: 1057px;
     height: 568px;
@@ -22,4 +25,55 @@ body{
     top: 132px;
     background: rgba(206, 224, 220, 0.45);
     border-radius: 10px;
-} */
+    align-items: center;
+}
+
+.salutation{
+    margin-left: 9rem;
+}
+
+.main-login{
+    margin-left: 22rem;
+}
+
+label{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+.headline{
+    margin-bottom: 2.7rem;
+}
+
+h1,h3{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.input-wrapper-email{
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.input-wrapper-password{
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+input{
+    width: 290px;
+    height: 38px;
+    background: rgba(255, 247, 254, 0.8);
+    border-radius: 10px;
+}
+
+.forget{
+    
+}
+
+
+
