@@ -12,7 +12,7 @@
 </head>
 <body>
 
-    <div class="container flex">
+    <div class="container box">
         <div class="flex">
             <header class="salutation">
                 <h1>Athan</h1>
@@ -26,25 +26,28 @@
                 </div>
     
                 <form action="">
-                    <div class="input-wrapper-email">
-                        <div class="input-wrapper flex">
-                            <label for="email">E-mail:</label>
+                    <div class="input-complete">
+                        <div class="input-wrapper-email">
+                            <div class="input-wrapper flex">
+                                <label for="email">E-mail:</label>
+                            </div>
+                            <input id="email" type="email" name="email" required placeholder="Type your e-mail">
                         </div>
-                        <input id="email" type="email" name="email" required placeholder="Type your e-mail">
-                    </div>
-    
-                    <div class="input-wrapper-password">
-                        <div class="input-wrapper flex">
-                            <label for="password">Password:</label>
+                    
+                        <div class="input-wrapper-password">
+                            <div class="input-wrapper flex">
+                                <label for="password">Password:</label>
+                            </div>
+                            <input type="Password" id="password" name="password" required placeholder="Type your password.">
                         </div>
-                        <input type="Password" id="password" name="password" required placeholder="Type your password.">
-                        
-                        <div class="forget flex">
+                    
+                        <div class="forget">
                             <a href="http://">Forget my password.</a>
                         </div>
                     </div>
-    
-                    <button>Login</button>
+                    <div class="button">
+                        <button>Login</button>
+                    </div>
     
                     <div class="register flex">
                         <a href="http://">Don't have an account?<br> register here</a>

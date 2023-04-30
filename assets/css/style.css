@@ -7,7 +7,6 @@
 }
   
 html {
-    height: 100%;
     background-image: url(/assets/img/FundoImg.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,14 +17,16 @@ html {
 }
 
 .container{
-    position: absolute;
-    width: 1057px;
-    height: 568px;
-    left: 111px;
-    top: 132px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
     background: rgba(206, 224, 220, 0.45);
     border-radius: 10px;
-    align-items: center;
+    margin: 100px 100px 50px 50px;
 }
 
 .salutation{
@@ -54,25 +55,54 @@ h1{
     text-align: center;
 }
 
-.input-wrapper-email{
+.input-complete{
+    text-align: center;
+}
+
+.input-wrapper-email, .input-wrapper-password{
     justify-content: space-between;
     margin-bottom: 1.5rem;
 }
 
 .input-wrapper-password{
-    justify-content: space-between;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0%;
 }
+
 
 input{
     width: 290px;
     height: 38px;
     background: rgba(255, 247, 254, 0.8);
     border-radius: 10px;
+    border: none;
 }
 
 .forget{
-    
+    text-align: right;
+    text-decoration: underline;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    background: #E9EDEF;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button{
+    text-align: center;
+    margin-top: 1.7rem;
+}
+
+.register{
+    display: grid;
+    text-align: center;
+    margin-top: 1.7rem;
 }
 
 
